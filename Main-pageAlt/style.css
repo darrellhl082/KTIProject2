@@ -1,0 +1,39 @@
+@font-face {
+    font-family: MontserratMedium;
+    src: url(../Font/Montserrat/Montserrat-Medium.ttf);
+
+}
+
+@font-face {
+    font-family: MontserratBold;
+    src: url(../Font/Montserrat/Montserrat-SemiBold.ttf);
+
+}
+
+body {
+    background-color: white;
+    font-family: 'MontserratMedium', sans-serif;
+}
+
+.navbar {
+    background-color: #21409A;
+}
+
+.navbar a {
+    font-family: 'MontserratMedium', sans-serif;
+}
+
+.nav-link:hover {
+    opacity: 1;
+}
+
+.class-box {
+    background-color: #21409A;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.class p {
+    font-size: 14px;
+}
